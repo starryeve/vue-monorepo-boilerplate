@@ -1,0 +1,21 @@
+{
+  "name": "@vue-monorepo-boilerplate/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "bin": {
+    "vmb": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.0.0"
+  }
+}

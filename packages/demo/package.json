@@ -1,0 +1,23 @@
+{
+  "name": "@vue-monorepo-boilerplate/demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --name release",
+    "build:mock": "webpack --mode production --name mock",
+    "dist": "webpack --mode production --name dist",
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint --ext .js,.vue,.ts,.tsx --ignore-path .gitignore --fix src",
+    "format": "prettier . --write",
+    "commit": "git-cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue-monorepo-boilerplate/common": "workspace:*",
+    "@vue-monorepo-boilerplate/configs": "workspace:*"
+  }
+}
